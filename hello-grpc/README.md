@@ -1,10 +1,7 @@
 # gRPC client/server with protocol buffer
 
-Start the server `GrpcServer` and run `GrpcClient` 
-
-----
-
-`protobuf-maven-plugin` is used to compile proto files and the generated sources are located in  /target folder on compile time
-
-
+Run `mvn compile` to generate sources from proto file:
+* `protobuf-maven-plugin` is used to compile proto files and the generated sources are located in  /target folder 
   
+Start the server `GrpcServer` (running on 8080) and run `GrpcClient`.
+
